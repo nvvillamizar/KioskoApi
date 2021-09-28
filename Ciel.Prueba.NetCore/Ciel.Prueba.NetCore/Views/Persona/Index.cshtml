@@ -1,0 +1,43 @@
+﻿@using Ciel.Prueba.NetCore.Entidades;
+@model IEnumerable<PersonaE>
+@{ 
+    List<SelectListItem> listaSexo = ViewBag.ListaSexo;
+}
+
+<form method="post" class="my-3" id="formularioBusqueda" asp-controller="Persona" asp-action="Index" style="display:grid; grid-template-columns: 1fr 2fr 1fr 1fr">
+    <label>Ingrese el sexo</label>
+    @Html.DropDownList("IdSexo", listaSexo, new { @class = "form-control" })
+    <input type="submit" class="btn btn-success btn-sm" value="Buscar" />
+    <input type="button" class="btn btn-danger btn-sm" id="clear" value="Limpiar" />
+</form>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>Id Persona</th>
+            <th>Nombre Completo</th>
+            <th>Correo Elect&Oacute;nico</th>
+            <th>Sexo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (PersonaE listaPersona in Model)
+        {
+        <tr>
+            <td>@listaPersona.IdPersona</td>
+            <td>@listaPersona.NombreCompleto</td>
+            <td>@listaPersona.CorreoElectronico</td>
+            <td>@listaPersona.NombreSexo</td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    document.getElementById("clear").addEventListener("click", limpiarBuscador);
+
+    function limpiarBuscador() {
+        document.getElementById("IdSexo").value = "";
+        document.getElementById("formularioBusqueda").submit();
+    }
+</script>

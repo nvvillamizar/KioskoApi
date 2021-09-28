@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Ciel.Prueba.NetCore.Entidades.SedeE>
+
+@{
+    ViewData["Title"] = "Index";
+    string nombreSede = ViewBag.NombreSede;
+}
+
+<form id="formularioEnviar" asp-controller="Sede" asp-action="Index" class="mb-2" method="POST">
+    <label>Ingrese el Nombre de la Sede:</label>
+    <input type="text" name="Nombre" class="form-control" id="buscarSede" value="@nombreSede"/>
+</form>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdSede)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Direccion)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdSede)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Direccion)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+<script>
+    document.getElementById("buscarSede").addEventListener("keyup", buscarSede);
+
+    function buscarSede() {
+        document.getElementById("formularioEnviar").submit();
+    }
+</script>

@@ -35,7 +35,7 @@ namespace KioskoW.Controllers
                 return NotFound();
             }
 
-            return usuarioEntidad;
+            return Ok(usuarioEntidad);
         }
 
         [HttpPut("{id}")]

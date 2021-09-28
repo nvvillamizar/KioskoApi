@@ -1,0 +1,42 @@
+﻿@using Ciel.Prueba.NetCore.Entidades;
+@model IEnumerable<TipoUsuarioE>
+
+@{
+    string nombre = ViewBag.Nombre;
+    string descripcion = ViewBag.Descripcion;
+    int idUsuario = ViewBag.IdUsuario;
+}
+
+<form asp-controller="TipoUsuario" asp-action="Index">
+    <input type="submit" class="btn btn-success" value="Enviar" />
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.IdTipoUsuario)</th>
+                <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+                <th>@Html.DisplayNameFor(model => model.Descripcion)</th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="number" name="IdTipoUsuario" class="form-control" value="@idUsuario"/>
+                </th>
+                <th>
+                    <input type="text" name="Nombre" class="form-control" value="@nombre"/>
+                </th>
+                <th>
+                    <input type="text" name="Descripcion" class="form-control" value="@descripcion"/>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (TipoUsuarioE listaTipousuarios in Model)
+            {
+                <tr>
+                    <td>@listaTipousuarios.IdTipoUsuario</td>
+                    <td>@listaTipousuarios.Nombre</td>
+                    <td>@listaTipousuarios.Descripcion</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>

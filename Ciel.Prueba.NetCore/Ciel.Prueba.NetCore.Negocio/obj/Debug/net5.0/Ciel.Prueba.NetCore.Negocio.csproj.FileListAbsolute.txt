@@ -1,0 +1,15 @@
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Negocio\bin\Debug\net5.0\Ciel.Prueba.NetCore.Negocio.deps.json
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Negocio\bin\Debug\net5.0\Ciel.Prueba.NetCore.Negocio.dll
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Negocio\bin\Debug\net5.0\ref\Ciel.Prueba.NetCore.Negocio.dll
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Negocio\bin\Debug\net5.0\Ciel.Prueba.NetCore.Negocio.pdb
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Negocio\bin\Debug\net5.0\Ciel.Prueba.NetCore.Entidades.dll
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Negocio\bin\Debug\net5.0\Ciel.Prueba.NetCore.Entidades.pdb
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Negocio\obj\Debug\net5.0\Ciel.Prueba.NetCore.Negocio.csproj.AssemblyReference.cache
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Negocio\obj\Debug\net5.0\Ciel.Prueba.NetCore.Negocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Negocio\obj\Debug\net5.0\Ciel.Prueba.NetCore.Negocio.AssemblyInfoInputs.cache
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Negocio\obj\Debug\net5.0\Ciel.Prueba.NetCore.Negocio.AssemblyInfo.cs
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Negocio\obj\Debug\net5.0\Ciel.Prueba.NetCore.Negocio.csproj.CoreCompileInputs.cache
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Negocio\obj\Debug\net5.0\Ciel.Prueba.NetCore.Negocio.csproj.CopyComplete
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Negocio\obj\Debug\net5.0\Ciel.Prueba.NetCore.Negocio.dll
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Negocio\obj\Debug\net5.0\ref\Ciel.Prueba.NetCore.Negocio.dll
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Negocio\obj\Debug\net5.0\Ciel.Prueba.NetCore.Negocio.pdb

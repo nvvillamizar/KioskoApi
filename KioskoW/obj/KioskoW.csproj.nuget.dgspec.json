@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NVillamizar\\Documents\\Proyectos\\KioskoApi\\KioskoW\\KioskoW\\KioskoW.csproj": {}
+    "D:\\Ciel\\Practica\\KioskoApi\\KioskoW\\KioskoW.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NVillamizar\\Documents\\Proyectos\\KioskoApi\\KioskoW\\KioskoApiEntidad\\KioskoApiEntidad.csproj": {
+    "D:\\Ciel\\Practica\\KioskoApi\\KioskoApiEntidad\\KioskoApiEntidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NVillamizar\\Documents\\Proyectos\\KioskoApi\\KioskoW\\KioskoApiEntidad\\KioskoApiEntidad.csproj",
+        "projectUniqueName": "D:\\Ciel\\Practica\\KioskoApi\\KioskoApiEntidad\\KioskoApiEntidad.csproj",
         "projectName": "KioskoApiEntidad",
-        "projectPath": "C:\\Users\\NVillamizar\\Documents\\Proyectos\\KioskoApi\\KioskoW\\KioskoApiEntidad\\KioskoApiEntidad.csproj",
-        "packagesPath": "C:\\Users\\NVillamizar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NVillamizar\\Documents\\Proyectos\\KioskoApi\\KioskoW\\KioskoApiEntidad\\obj\\",
+        "projectPath": "D:\\Ciel\\Practica\\KioskoApi\\KioskoApiEntidad\\KioskoApiEntidad.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Ciel\\Practica\\KioskoApi\\KioskoApiEntidad\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\NVillamizar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,21 +58,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\NVillamizar\\Documents\\Proyectos\\KioskoApi\\KioskoW\\KioskoW\\KioskoW.csproj": {
+    "D:\\Ciel\\Practica\\KioskoApi\\KioskoW\\KioskoW.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NVillamizar\\Documents\\Proyectos\\KioskoApi\\KioskoW\\KioskoW\\KioskoW.csproj",
+        "projectUniqueName": "D:\\Ciel\\Practica\\KioskoApi\\KioskoW\\KioskoW.csproj",
         "projectName": "KioskoW",
-        "projectPath": "C:\\Users\\NVillamizar\\Documents\\Proyectos\\KioskoApi\\KioskoW\\KioskoW\\KioskoW.csproj",
-        "packagesPath": "C:\\Users\\NVillamizar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NVillamizar\\Documents\\Proyectos\\KioskoApi\\KioskoW\\KioskoW\\obj\\",
+        "projectPath": "D:\\Ciel\\Practica\\KioskoApi\\KioskoW\\KioskoW.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Ciel\\Practica\\KioskoApi\\KioskoW\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\NVillamizar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +90,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\NVillamizar\\Documents\\Proyectos\\KioskoApi\\KioskoW\\KioskoApiEntidad\\KioskoApiEntidad.csproj": {
-                "projectPath": "C:\\Users\\NVillamizar\\Documents\\Proyectos\\KioskoApi\\KioskoW\\KioskoApiEntidad\\KioskoApiEntidad.csproj"
+              "D:\\Ciel\\Practica\\KioskoApi\\KioskoApiEntidad\\KioskoApiEntidad.csproj": {
+                "projectPath": "D:\\Ciel\\Practica\\KioskoApi\\KioskoApiEntidad\\KioskoApiEntidad.csproj"
               }
             }
           }
@@ -135,7 +143,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

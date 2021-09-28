@@ -1,0 +1,58 @@
+﻿@using Ciel.Prueba.NetCore.Entidades;
+@model IEnumerable<EspecialidadE>
+@{
+    string nombreEspecialidad = ViewBag.NombreEspecialidad;
+}
+
+<div class="my-5">
+    <a class="btn btn-secondary" asp-action="Agregar" asp-controller="Especialidad">Agregar</a>
+</div>
+
+<div @*asp-controller="Especialidad" asp-action="Index" method="POST"*@ class="mb-3" style="display:grid; grid-template-columns: 1fr 2fr 1fr 1fr" id="formularioBusqueda">
+    <label>Ingrese el nombre de la especialidad</label>
+    <input type="text" class="form-control" name="Nombre" id="textName" value="@nombreEspecialidad" />
+    <input type="button" class="btn btn-success btn-sm" value="Buscar" id="buscarInformacion" />
+    <input type="button" class="btn btn-info btn-sm" id="clear" value="Limpiar" />
+</div>
+
+<form asp-controller="Especialidad" asp-action="Exportar" method="post" id="formularioReporte">
+    <table class="table" id="table">
+        <thead class="thead-dark">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.IdEspecialidad)</th>
+                <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+                <th>@Html.DisplayNameFor(model => model.Descripcion)</th>
+                <th width="50px"></th>
+            </tr>
+            <tr id="check">
+                <th>
+                    <input type="checkbox" checked name="propiedades" value="IdEspecialidad" />
+                </th>
+                <th>
+                    <input type="checkbox" checked name="propiedades" value="Nombre" />
+                </th>
+                <th>
+                    <input type="checkbox" checked name="propiedades" value="Descripcion" />
+                </th>
+                <th>
+                    <input type="hidden" name="tipoReporte" id="tipoReporte" />
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-success exportarReporte" data-type="excel"><i class="far fa-file-excel"></i></button>
+                        <button type="button" class="btn btn-danger exportarReporte" data-type="pdf"><i class="far fa-file-pdf"></i></button>
+                        <button type="button" class="btn btn-info exportarReporte" data-type="word"><i class="far fa-file-word"></i></button>
+                        <button type="button" class="btn btn-info exportarReporte" data-type="print"><i class="far fa-file-print"></i></button>
+                    </div>
+                </th>
+            </tr>
+        </thead>
+        <tbody id="datos">
+        </tbody>
+    </table>
+</form>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="~/js/generic.js"></script>
+
+@section Scripts {
+    <script src="~/js/Especialidad.js"></script>
+}

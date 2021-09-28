@@ -1,0 +1,82 @@
+﻿@using Ciel.Prueba.NetCore.Entidades;
+@model IEnumerable<MedicamentoE>
+
+@{
+    ViewData["Title"] = "Index";
+
+    List<SelectListItem> listaForma = ViewBag.ListaForma;
+}
+
+<div class="my-5">
+    <a class="btn btn-secondary" asp-action="Agregar" asp-controller="Medicamento">Agregar</a>
+</div>
+
+
+<form style="display:grid; grid-template-columns: 1fr 2fr" class="my-3" id="formularioBusqueda">
+    <label>Seleccione el nombre de la Farmaceutica</label>
+    @Html.DropDownList("IdFormaFarmaceutica", listaForma, new { @class = "form-control" })
+</form>
+
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdMedicamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stock)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreFarmaceutica)
+            </th>
+            <th colspan="1"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (MedicamentoE obtMedicamento in Model)
+        {
+            <tr>
+                <td>
+                    @obtMedicamento.IdMedicamento
+                </td>
+                <td>
+                    @obtMedicamento.Nombre
+                </td>
+                <td>
+                    @obtMedicamento.Precio
+                </td>
+                <td>
+                    @obtMedicamento.Stock
+                </td>
+                <td>
+                    @obtMedicamento.NombreFarmaceutica
+                </td>
+                <td>
+                    <a class="btn btn-info" asp-controller="Medicamento" asp-action="Editar" asp-route-idMedicamento="@obtMedicamento.IdMedicamento">Editar</a>
+                    <button class="btn btn-danger" onclick="eMedicamento('@obtMedicamento.Nombre',@obtMedicamento.IdMedicamento)">Eliminar</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+
+    const idFormaFarmaceutica = document.getElementById("IdFormaFarmaceutica");
+
+    idFormaFarmaceutica.onchange = function () {
+        document.getElementById("formularioBusqueda").submit();
+    }
+
+    function eMedicamento(nombre, id) {
+
+    }
+
+</script>

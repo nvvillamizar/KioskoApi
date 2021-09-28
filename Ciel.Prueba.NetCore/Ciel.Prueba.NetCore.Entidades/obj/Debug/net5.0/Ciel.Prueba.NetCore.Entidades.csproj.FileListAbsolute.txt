@@ -1,0 +1,11 @@
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Entidades\bin\Debug\net5.0\Ciel.Prueba.NetCore.Entidades.deps.json
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Entidades\bin\Debug\net5.0\Ciel.Prueba.NetCore.Entidades.dll
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Entidades\bin\Debug\net5.0\ref\Ciel.Prueba.NetCore.Entidades.dll
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Entidades\bin\Debug\net5.0\Ciel.Prueba.NetCore.Entidades.pdb
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Entidades\obj\Debug\net5.0\Ciel.Prueba.NetCore.Entidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Entidades\obj\Debug\net5.0\Ciel.Prueba.NetCore.Entidades.AssemblyInfoInputs.cache
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Entidades\obj\Debug\net5.0\Ciel.Prueba.NetCore.Entidades.AssemblyInfo.cs
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Entidades\obj\Debug\net5.0\Ciel.Prueba.NetCore.Entidades.csproj.CoreCompileInputs.cache
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Entidades\obj\Debug\net5.0\Ciel.Prueba.NetCore.Entidades.dll
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Entidades\obj\Debug\net5.0\ref\Ciel.Prueba.NetCore.Entidades.dll
+D:\Ciel\Practica\Ciel.Prueba.NetCore\Ciel.Prueba.NetCore.Entidades\obj\Debug\net5.0\Ciel.Prueba.NetCore.Entidades.pdb
