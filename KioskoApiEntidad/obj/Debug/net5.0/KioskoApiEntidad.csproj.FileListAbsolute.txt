@@ -1,0 +1,12 @@
+C:\Users\NVillamizar\Documents\Proyectos\KioskoApi\KioskoW\KioskoApiEntidad\bin\Debug\net5.0\KioskoApiEntidad.deps.json
+C:\Users\NVillamizar\Documents\Proyectos\KioskoApi\KioskoW\KioskoApiEntidad\bin\Debug\net5.0\KioskoApiEntidad.dll
+C:\Users\NVillamizar\Documents\Proyectos\KioskoApi\KioskoW\KioskoApiEntidad\bin\Debug\net5.0\ref\KioskoApiEntidad.dll
+C:\Users\NVillamizar\Documents\Proyectos\KioskoApi\KioskoW\KioskoApiEntidad\bin\Debug\net5.0\KioskoApiEntidad.pdb
+C:\Users\NVillamizar\Documents\Proyectos\KioskoApi\KioskoW\KioskoApiEntidad\obj\Debug\net5.0\KioskoApiEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NVillamizar\Documents\Proyectos\KioskoApi\KioskoW\KioskoApiEntidad\obj\Debug\net5.0\KioskoApiEntidad.AssemblyInfoInputs.cache
+C:\Users\NVillamizar\Documents\Proyectos\KioskoApi\KioskoW\KioskoApiEntidad\obj\Debug\net5.0\KioskoApiEntidad.AssemblyInfo.cs
+C:\Users\NVillamizar\Documents\Proyectos\KioskoApi\KioskoW\KioskoApiEntidad\obj\Debug\net5.0\KioskoApiEntidad.csproj.CoreCompileInputs.cache
+C:\Users\NVillamizar\Documents\Proyectos\KioskoApi\KioskoW\KioskoApiEntidad\obj\Debug\net5.0\KioskoApiEntidad.dll
+C:\Users\NVillamizar\Documents\Proyectos\KioskoApi\KioskoW\KioskoApiEntidad\obj\Debug\net5.0\ref\KioskoApiEntidad.dll
+C:\Users\NVillamizar\Documents\Proyectos\KioskoApi\KioskoW\KioskoApiEntidad\obj\Debug\net5.0\KioskoApiEntidad.pdb
+C:\Users\NVillamizar\Documents\Proyectos\KioskoApi\KioskoW\KioskoApiEntidad\obj\Debug\net5.0\KioskoApiEntidad.csproj.AssemblyReference.cache
